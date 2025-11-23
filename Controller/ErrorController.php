@@ -67,4 +67,14 @@ class ErrorController extends AppController
     public function afterFilter(EventInterface $event)
     {
     }
+
+    /**
+     * 店番未指定のエラーページ
+     */
+    public function noStore()
+    {
+        $this->viewBuilder()->disableAutoLayout();
+        $this->set('message', '店番が指定されていません。location_id を指定してください。');
+        $this->viewBuilder()->setTemplate('error500');
+    }
 }

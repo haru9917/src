@@ -1,0 +1,6 @@
+{
+    "intelephense.environment.includePaths": [
+        "../vendor/cakephp/cakephp/src"
+    ],
+    "intelephense.environment.phpVersion": "8.1"
+}

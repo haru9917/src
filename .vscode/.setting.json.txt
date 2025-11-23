@@ -1,0 +1,11 @@
+// /リポジトリルート/.vscode/settings.json
+{
+    // IntelephenseがCakePHPのコアライブラリを参照するように設定
+    // ほとんどのCakePHPプロジェクトで 'vendor/cakephp/cakephp/src' はリポジトリルートからの相対パスでアクセス可能です
+    "intelephense.environment.includePaths": [
+        "app/vendor/cakephp/cakephp/src"
+    ],
+
+    // プロジェクトで使用しているPHPバージョンを設定 (例: 8.1)
+    "intelephense.environment.phpVersion": "8.1"
+}
